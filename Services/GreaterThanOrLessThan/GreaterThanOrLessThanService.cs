@@ -8,15 +8,15 @@ public class GreaterThanOrLessThanService : IGreaterThanOrLessThanService
         {
             if (num > num2)
             {
-                return $"The first number: {numOne}, is greater than the second number: {numTwo}. \nThe second number: {numTwo}, is less than the first number: {numOne}.";
+                return $"{num} > {num2}";
             }
             else if (num < num2)
             {
-                return $"The first number: {numOne}, is less than the second number: {numTwo}. \nThe second number: {numTwo}, is greater than the first number: {numOne}.";
+                return $"{num} < {num2}";
             }
             else
             {
-                return $"The first number: {numOne}, is equal to the second number: {numTwo}. \nThe second number: {numTwo}, is equal to the first number: {numOne}.";
+                return $"{num} = {num2}";
             }
         }
         else

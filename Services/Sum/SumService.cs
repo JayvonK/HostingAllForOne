@@ -6,7 +6,7 @@ public class SumService : ISumService
     {
         if(int.TryParse(num1, out int numOne) && int.TryParse(num2, out int numTwo))
         {
-            return $"The sum of {numOne} and {numTwo} is {numOne + numTwo}.";
+            return $"{numOne + numTwo}";
         } 
         else
         {

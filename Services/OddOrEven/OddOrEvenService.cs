@@ -6,7 +6,7 @@ public class OddOrEvenService : IOddOrEvenService
     {
         if (int.TryParse(number, out int num))
         {
-            return (num % 2 == 0) ? $"The number {num} is an even number" : $"The number {num} is an odd number";
+            return (num % 2 == 0) ? "Even" : "Odd";
         }
         else
         {
