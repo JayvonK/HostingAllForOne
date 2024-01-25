@@ -10,7 +10,7 @@ public class OddOrEvenService : IOddOrEvenService
         }
         else
         {
-            return $"ERROR, {number} is an invalid input, please enter in a whole number that isn't too big";
+            return $"Invalid Input(s)";
         }
     }
 }

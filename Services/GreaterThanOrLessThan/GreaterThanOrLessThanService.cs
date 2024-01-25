@@ -21,7 +21,7 @@ public class GreaterThanOrLessThanService : IGreaterThanOrLessThanService
         }
         else
         {
-            return "Error, you need to enter in numbers for both parameters.";
+            return "Invalid Input(s)";
         }
     }
 }
