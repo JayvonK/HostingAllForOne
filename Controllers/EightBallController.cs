@@ -14,5 +14,11 @@ namespace HostingAllForOne.Controllers;
         _eightBallService = eightBallService;
     }
 
+    [HttpGet]
+    [Route("AskMeYesOrNoQuestion/{yourQuestion}")]
+    public string AskMe(string yourQuestion)
+    {
+        return _eightBallService.AskMe(yourQuestion);
+    }
     
 }
