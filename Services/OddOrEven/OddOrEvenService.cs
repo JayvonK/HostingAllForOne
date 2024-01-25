@@ -10,7 +10,7 @@ public class OddOrEvenService : IOddOrEvenService
         }
         else
         {
-            return $"Invalid Input(s)";
+            return $"Invalid Input";
         }
     }
 }
