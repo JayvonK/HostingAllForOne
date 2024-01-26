@@ -12,7 +12,7 @@ public class GreaterThanOrLessThanService : IGreaterThanOrLessThanService
             }
             else if (num < num2)
             {
-                return $"{numOne}, is less than {numTwo}.\n {numTwo}, is greater than {numTwo}.";
+                return $"{numOne}, is less than {numTwo}.\n {numTwo}, is greater than {numOne}.";
             }
             else
             {
