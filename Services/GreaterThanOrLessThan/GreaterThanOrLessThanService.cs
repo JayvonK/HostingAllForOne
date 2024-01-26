@@ -8,20 +8,20 @@ public class GreaterThanOrLessThanService : IGreaterThanOrLessThanService
         {
             if (num > num2)
             {
-                return ">";
+                return $"{numOne}, is greater {numTwo}\n{numTwo}, is less than {numOne}";
             }
             else if (num < num2)
             {
-                return "<";
+                return $"{numOne}, is less than {numTwo}\n{numOne}, is less than {numTwo}";
             }
             else
             {
-                return "=";
+                return $"{numOne} & {numTwo} are equal";
             }
         }
         else
         {
-            return "Invalid Input(s)";
+            return "Error, you need to enter in numbers for both parameters.";
         }
     }
 }
