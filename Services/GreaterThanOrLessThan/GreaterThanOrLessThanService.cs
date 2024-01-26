@@ -8,11 +8,11 @@ public class GreaterThanOrLessThanService : IGreaterThanOrLessThanService
         {
             if (num > num2)
             {
-                return $"{numOne}, is greater {numTwo}\n{numTwo}, is less than {numOne}";
+                return $"{numOne}, is greater than {numTwo}.\n {numTwo}, is less than {numOne}.";
             }
             else if (num < num2)
             {
-                return $"{numOne}, is less than {numTwo}\n{numOne}, is less than {numTwo}";
+                return $"{numOne}, is less than {numTwo}.\n {numOne}, is less than {numTwo}.";
             }
             else
             {
