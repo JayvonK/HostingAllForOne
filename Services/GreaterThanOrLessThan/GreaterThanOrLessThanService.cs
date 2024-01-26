@@ -8,15 +8,15 @@ public class GreaterThanOrLessThanService : IGreaterThanOrLessThanService
         {
             if (num > num2)
             {
-                return $"{num} > {num2}";
+                return ">";
             }
             else if (num < num2)
             {
-                return $"{num} < {num2}";
+                return "<";
             }
             else
             {
-                return $"{num} = {num2}";
+                return "=";
             }
         }
         else
